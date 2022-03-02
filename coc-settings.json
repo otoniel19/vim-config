@@ -36,7 +36,18 @@
     "c",
     "json"
   ],
-  "vimlsp.filetypes": ["vim", "html", "css", "js", "ts", "md", "py"],
+  "vimlsp.filetypes": [
+    "vim",
+    "html",
+    "css",
+    "js",
+    "ts",
+    "md",
+    "py",
+    "yaml",
+    "lock",
+    "yml"
+  ],
   "vimlsp.trace.server": "off",
   "npm.binPath": "yarn",
   "typescript.showDeprecated": true,
@@ -46,5 +57,9 @@
   "tsserver.disableAutomaticTypeAcquisition": true,
   "tsserver.locale": "pt-br",
   "jest.watch": true,
-  "jest.configFileName": "jest.config.js"
+  "jest.configFileName": "jest.config.js",
+  "yaml.enable": true,
+  "yaml.format.enable": true,
+  "yaml.trace.server": "off",
+  "yaml.format.bracketSpacing": true
 }
